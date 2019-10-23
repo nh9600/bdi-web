@@ -33,5 +33,7 @@ public class DBCon {
 		return con;//반드시 리턴해줘야함 
 		
 	}
-
+	public static void main(String[] args) {
+		getCon();
+	}
 }
