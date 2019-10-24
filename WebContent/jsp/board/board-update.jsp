@@ -29,7 +29,7 @@
 			<tr>
 				<th>게시판 제목</th>
 				<td><input type="text" name="title"
-					value="<%out.println(rs.getString("bi_title"));%>"></td>
+					value="<%=rs.getString("bi_title")%>"></td>
 
 			</tr>
 			<tr>
