@@ -11,7 +11,7 @@
 </head>
 <body>
 <%
-request.setCharacterEncoding("UTF-8");
+request.setCharacterEncoding("UTF-8");//utf-8로 읽어!
 String num = request.getParameter("num");
 String id = request.getParameter("id");
 String pwd = request.getParameter("pwd");
