@@ -23,7 +23,7 @@ String sql= "update board_info set bi_title=?,bi_user=?,bi_content=?";
 sql+=" where bi_num=?";
 Connection con = DBCon.getCon();
 PreparedStatement ps = con.prepareStatement(sql);
-ps.setString(1,num);
+ps.setString(1,title);
 ps.setString(2,user);
 ps.setString(3,content);
 ps.setString(4,num);
