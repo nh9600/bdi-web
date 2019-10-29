@@ -28,6 +28,6 @@ if(result==1){
 	con.commit();
 }
 %>
-<a href="/bdi-web/jsp/board/board-list.jsp"><button>리스트로 가기</button></a>
+<a href="/bdi/books/list.jsp"><button>리스트로 가기</button></a>
 </body>
 </html>
